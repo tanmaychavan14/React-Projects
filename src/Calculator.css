@@ -1,0 +1,58 @@
+/* Calculator.css */
+
+.cal-main {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    height: 100vh;          /* Full viewport height */
+    background-color: #f0f0f0; /* Light background for contrast */
+  }
+  
+  .cal-submain {
+    background-color: #fff;  /* White background for the calculator */
+    border-radius: 10px;     /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    padding: 20px;           /* Padding around the calculator */
+    width: 320px;            /* Fixed width */
+  }
+  
+  .display {
+    background-color: #222;   /* Dark background for the display */
+    color: #fff;              /* White text color */
+    font-size: 2em;           /* Larger font for the display */
+    padding: 10px;            /* Padding inside the display */
+    border-radius: 5px;       /* Rounded corners */
+    text-align: right;        /* Align text to the right */
+    margin-bottom: 10px;      /* Space below the display */
+  }
+  
+  .buttons {
+    display: grid;            /* Use grid layout for buttons */
+    grid-template-columns: repeat(4, 1fr); /* Four columns */
+    gap: 10px;               /* Space between buttons */
+  }
+  
+  .btn {
+    box-shadow: 5px 5px 10px rgba(15, 5, 199, 0.5);
+    background-color: #f1f1f1; /* Light button background */
+    border: none;              /* Remove default border */
+    border-radius: 5px;       /* Rounded corners */
+    padding: 20px;            /* Padding inside buttons */
+    font-size: 1.5em;         /* Button text size */
+    cursor: pointer;           /* Pointer cursor on hover */
+    transition: background-color 0.2s; /* Smooth background color transition */
+  }
+  
+  .btn:hover {
+    background-color: #ddd;   /* Darker background on hover */
+  }
+  
+  .operator {
+    background-color: #ff9800; /* Orange background for operator buttons */
+    color: #fff;               /* White text color for operators */
+  }
+  
+  .operator:hover {
+    background-color: #e68a00; /* Darker orange on hover */
+  }
+  
