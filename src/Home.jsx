@@ -8,6 +8,9 @@ const Home = () => {
          <div className="calculator-box">
          <Link to="/Calculator"><h1 className='home-h1'>Calculator</h1></Link>
       </div>
+      <div className="weather-box">
+         <Link to="/Weather"><h1 className='home-h1'>Weather</h1></Link>
+      </div>
     </div></main>
   )
 }
